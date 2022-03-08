@@ -1,0 +1,11 @@
+<button mat-icon-button class="close-button" [mat-dialog-close]="true">
+    <mat-icon class="close-icon" color="warn">close</mat-icon>
+</button>
+  
+<h1 mat-dialog-title>EUR to USD Forex Detail</h1>
+<div mat-dialog-content>
+    <h3>Open Position: {{forexData.value['1. open']}}</h3>
+    <h3>High Position: {{forexData.value['2. high']}}</h3>
+    <h3>Low Position: {{forexData.value['3. low']}}</h3>
+    <h3>Close Position: {{forexData.value['4. close']}}</h3>
+</div>
