@@ -14,3 +14,5 @@ export const errorItem = createAction(
   'error item',
   props<{ message: string }>()
 );
+
+export const dummyAction = createAction('[dummy action]');
